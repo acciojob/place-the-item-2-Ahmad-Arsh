@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+  text-area: left;
+	font-size: 30px;
+}
+
+.item1 {
+	display: flex;
+	width: 100px;
+	height:100px;
+ background-color: green;
+	 flex-direction: row;
+}
+.item2 {
+	display: flex;
+	width: 100px;
+	height:100px;
+ background-color: red;
+	 flex-direction: row;
+}
+.item3 {
+	display: flex;
+	width: 100px;
+	height:100px;
+ background-color: Blue;
+	 flex-direction: row;
+}
